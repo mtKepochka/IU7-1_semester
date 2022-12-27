@@ -1,0 +1,28 @@
+************* Module 3
+3.py:1:0: C0103: Module name "3" doesn't conform to snake_case naming style (invalid-name)
+3.py:22:0: C0116: Missing function or method docstring (missing-function-docstring)
+3.py:32:4: W0702: No exception type(s) specified (bare-except)
+3.py:39:0: C0116: Missing function or method docstring (missing-function-docstring)
+3.py:49:0: C0116: Missing function or method docstring (missing-function-docstring)
+3.py:59:0: C0116: Missing function or method docstring (missing-function-docstring)
+3.py:74:12: C0103: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+3.py:78:16: C0103: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+3.py:79:12: C0103: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+3.py:72:12: W0612: Unused variable 'i' (unused-variable)
+3.py:86:0: C0116: Missing function or method docstring (missing-function-docstring)
+3.py:98:16: C0103: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+3.py:99:16: C0103: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+3.py:101:16: C0103: Variable name "d1" doesn't conform to snake_case naming style (invalid-name)
+3.py:102:16: C0103: Variable name "s1" doesn't conform to snake_case naming style (invalid-name)
+3.py:107:16: C0103: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+3.py:109:16: C0103: Variable name "d1" doesn't conform to snake_case naming style (invalid-name)
+3.py:89:8: W0612: Unused variable 'max_pos' (unused-variable)
+3.py:116:0: C0116: Missing function or method docstring (missing-function-docstring)
+3.py:124:12: C0103: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+3.py:125:12: C0103: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+3.py:135:12: C0103: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+3.py:136:12: C0103: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+
+------------------------------------------------------------------
+Your code has been rated at 7.89/10 (previous run: 7.89/10, +0.00)
+
