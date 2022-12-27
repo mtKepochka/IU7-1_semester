@@ -41,7 +41,6 @@ def dec_to_roma(integer: int):  # function made by Kirill Vorobyov
 
     return thous + cent + decs + single
 
-        
 
 with open("in1.txt", "r") as file:
     with open("out1.txt", "w") as file2:
@@ -49,12 +48,12 @@ with open("in1.txt", "r") as file:
         max_size = file.tell()
         file.seek(0)
         max_len = 0
-        while file.tell() < max_size:
+        while file.tell() < max_size:  # getting maximum length of roma number
             s = file.readline()
             s = str(dec_to_roma(int(s)))
             max_len = max(len(s), max_len)
         file.seek(0)
-        while file.tell() < max_size:
+        while file.tell() < max_size:  # writing roma numbers with center alignment
             s = file.readline()
             s = str(dec_to_roma(int(s)))
             s = s.center(max_len)
@@ -67,6 +66,7 @@ with open("out1.txt", "r") as file:
             max_size = file2.tell()
             file2.seek(0)
             while file2.tell() < max_size:
+                # writing roma numbers in out2.txt by order of numbers in in2.txt
                 line_number = int(file2.readline())
                 file.seek(0)
                 for i in range(line_number):
