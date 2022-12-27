@@ -68,7 +68,6 @@ with open("out1.txt", "r") as file:
             file2.seek(0)
             while file2.tell() < max_size:
                 line_number = int(file2.readline())
-                current_line = ...
                 file.seek(0)
                 for i in range(line_number):
                     current_line = file.readline()
